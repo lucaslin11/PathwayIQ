@@ -5,7 +5,7 @@ import { formatOverridesPlugin } from "./export-plugins/format-overrides-plugin.
 import { mediaAssetsPlugin } from "./export-plugins/media-assets-plugin.ts";
 
 export default defineConfig(({ mode, isSsrBuild }) => ({
-  base: '/PathwayIQ/',
+   base: './',
   envPrefix: ["VITE_", "SITE_"],
   plugins: [
     react(),
