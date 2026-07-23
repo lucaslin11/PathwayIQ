@@ -23,7 +23,7 @@ export default defineConfig(() => ({
     include: ["react", "react-dom", "react-router-dom", "motion/react"]
   },
   build: {
-    outDir: "dist",
+    outDir: "dist/client", // Forces assets into the folder GitHub Actions is deploying!
     emptyOutDir: true,
     copyPublicDir: true
   }
