@@ -2,9 +2,9 @@ import { Helmet } from '@dr.pogodin/react-helmet';
 import { type ReactElement } from 'react';
 import { ScrollRestoration } from 'react-router-dom';
 
-import Footer from '@/layouts/parts/Footer';
-import Header from '@/layouts/parts/Header';
-import Website from '@/layouts/Website';
+import Footer from './parts/Footer';
+import Header from './parts/Header';
+import Website from './Website';
 
 /**
  * Root layout component that wraps all pages with consistent header and footer.
