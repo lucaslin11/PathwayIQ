@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Helmet } from '@dr.pogodin/react-helmet';
 import { motion } from 'motion/react';
 import { ArrowRight, Briefcase, GraduationCap, BookOpen, Star, Compass } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '../components/ui/button';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
