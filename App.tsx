@@ -47,17 +47,12 @@ const rootElement = (
 // too would double-forward async errors and stack a second overlay.
 const routeTree: RouteObject[] = [
   {
-    element:
-      import.meta.env.MODE === 'development' ? (
-        <AiroErrorBoundary captureGlobalErrors={false}>{rootElement}</AiroErrorBoundary>
-      ) : (
-        rootElement
-      ),
+    element: rootElement,
     children: routes,
   },
 ];
 
-const router = createHashRouter(routeTree, { basename: "/" });
+const router = createHashRouter(routeTree);
 
 export default function App() {
   return (
