@@ -2,7 +2,7 @@ import { lazy, Suspense } from 'react';
 import {
   Outlet,
   RouterProvider,
-  createBrowserRouter,
+  createHashRouter,
   type RouteObject,
 } from 'react-router-dom';
 
@@ -57,7 +57,7 @@ const routeTree: RouteObject[] = [
   },
 ];
 
-const router = createBrowserRouter(routeTree);
+const router = createHashRouter(routeTree);
 
 export default function App() {
   return (
