@@ -57,7 +57,7 @@ const routeTree: RouteObject[] = [
   },
 ];
 
-const router = createHashRouter(routeTree);
+const router = createHashRouter(routeTree, { basename: "/" });
 
 export default function App() {
   return (
