@@ -1,0 +1,31 @@
+{
+  "pages/home/hero": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2228146134",
+    "searchQuery": "high school student studying planning future academic goals",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2227831307",
+      "https://img1.wsimg.com/isteam/getty/2241368425",
+      "https://img1.wsimg.com/isteam/getty/2201440926",
+      "https://img1.wsimg.com/isteam/getty/1682614348"
+    ],
+    "userModified": false,
+    "createdAt": "2026-06-14T05:03:13.037Z",
+    "lastUpdated": "2026-06-14T05:03:13.037Z",
+    "gettyId": "2228146134",
+    "alternativeGettyIds": [
+      "2227831307",
+      "2241368425",
+      "2201440926",
+      "1682614348"
+    ],
+    "requestedSize": {
+      "width": 1200,
+      "height": 700,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "numberOfPeople": "one",
+    "ageOfPeople": "teenager"
+  }
+}
