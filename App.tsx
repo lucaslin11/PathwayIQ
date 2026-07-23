@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 import AiroErrorBoundary from './export-plugins/AiroErrorBoundary';
-import CookieBannerErrorBoundary from '@/components/CookieBannerErrorBoundary';
+import CookieBannerErrorBoundary from './components/CookieBannerErrorBoundary';
 import RootLayout from './layouts/RootLayout';
 import Spinner from './components/Spinner';
 import { routes } from './routes';
