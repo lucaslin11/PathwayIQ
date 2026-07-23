@@ -65,6 +65,7 @@ if (corsOrigins.length === 0) {
 }
 
 export default defineConfig(({ mode, isSsrBuild }) => ({
+  base: '/PathwayIQ/',
   envPrefix: ["VITE_", "SITE_"],
 
   plugins: [
