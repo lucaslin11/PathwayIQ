@@ -12,12 +12,13 @@ const CollegesPage = lazy(() => import('./pages/colleges'));
 const ClassesPage = lazy(() => import('./pages/classes'));
 
 export const routes: RouteObject[] = [
-  { path: '/', element: <HomePage /> },
-  { path: '/quiz', element: <QuizPage /> },
-  { path: '/dashboard', element: <DashboardPage /> },
-  { path: '/careers', element: <CareersPage /> },
-  { path: '/colleges', element: <CollegesPage /> },
-  { path: '/classes', element: <ClassesPage /> },
+  { path: '/PathwayIQ/', element: <HomePage /> },
+  { path: '/PathwayIQ', element: <HomePage /> },
+  { path: '/PathwayIQ/quiz', element: <QuizPage /> },
+  { path: '/PathwayIQ/dashboard', element: <DashboardPage /> },
+  { path: '/PathwayIQ/careers', element: <CareersPage /> },
+  { path: '/PathwayIQ/colleges', element: <CollegesPage /> },
+  { path: '/PathwayIQ/classes', element: <ClassesPage /> },
   { path: '*', element: <NotFoundPage /> },
 ];
 
