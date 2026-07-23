@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { Button } from '@/components/ui/button';
+import { Button } from './ui/button';
 
 const COOKIE_CONSENT_KEY = 'c2_analytics_consent';
 const COOKIE_CONSENT_EXPIRES_DAYS = 365;
