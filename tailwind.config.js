@@ -2,10 +2,13 @@
 import tailwindcssAnimate from 'tailwindcss-animate'
 
 export default {
-  content: [
+    content: [
     './index.html',
-    './src/**/*.{ts,tsx,js,jsx}',
-    './dev-tools/src/**/*.{ts,tsx,js,jsx}',
+    './*.{ts,tsx,js,jsx}',
+    './components/**/*.{ts,tsx,js,jsx}',
+    './layouts/**/*.{ts,tsx,js,jsx}',
+    './pages/**/*.{ts,tsx,js,jsx}',
+    './fallbacks/**/*.{ts,tsx,js,jsx}',
   ],
   theme: {
   	container: {
