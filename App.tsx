@@ -7,19 +7,10 @@ import {
 } from 'react-router-dom';
 
 import AiroErrorBoundary from './export-plugins/AiroErrorBoundary';
-import CookieBannerErrorBoundary from './components/CookieBannerErrorBoundary';
+
 import RootLayout from './layouts/RootLayout';
 import Spinner from './components/Spinner';
 import { routes } from './routes.tsx';
-import { ProfileProvider } from './lib/profile-context';
-import { LanguageProvider } from './lib/i18n';
-
-const CookieBanner = lazy(() =>
-  import('./components/CookieBanner').catch((error) => {
-    console.warn('Failed to load CookieBanner:', error);
-    return { default: () => null };
-  })
-);
 
 const SpinnerFallback = () => (
   <div className="flex justify-center py-8 h-screen items-center">
