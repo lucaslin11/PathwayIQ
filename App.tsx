@@ -53,23 +53,8 @@ const routeTree: RouteObject[] = [
 ];
 
 const router = createHashRouter(routeTree);
-
 export default function App() {
   return (
-    <LanguageProvider>
-      <ProfileProvider>
-        <RouterProvider router={router} />
-        {/*
-          CookieBanner reads document.cookie and subscribes to browser events.
-          App.tsx is client-only (entry-server.tsx renders the route tree
-          directly without importing App), so no SSR gate is needed here.
-        */}
-        <CookieBannerErrorBoundary>
-          <Suspense fallback={null}>
-            <CookieBanner />
-          </Suspense>
-        </CookieBannerErrorBoundary>
-      </ProfileProvider>
-    </LanguageProvider>
+    <RouterProvider router={router} />
   );
 }
